@@ -19,7 +19,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	 url(r'^presupuestos/', include('presupuestos.urls', namespace='presupuestos')), #referencia al archivo presupuestos/urls.py,
+	url(r'^presupuestos/', include('presupuestos.urls', namespace='presupuestos')), #referencia al archivo presupuestos/urls.py,
     #url(r'^accounts/login/$', auth_views.login),     
     
     
