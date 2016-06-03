@@ -79,8 +79,8 @@ WSGI_APPLICATION = 'Lab3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'labdb',
-        'USER': 'labdb',
+        'NAME': 'labweb',
+        'USER': 'labweb',
         'PASSWORD': os.getenv('edkappslab_dbpass', 'clave secreta :)'),
         'HOST': 'localhost',
         'PORT': '',

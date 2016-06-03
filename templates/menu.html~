@@ -22,11 +22,12 @@
 	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
 	<div class="row">
         <div class="col-xs-3 col-md-3">
-  	      <!--logo -->
-	      <a href="{% url "presupuestos:lab_inicio"  %}"><img src= "{% static "images/logo_clarity.jpg"%}" alt="Logotipo de Clarity"></a>
+  	     <!--logo -->
+	     <a href="{% url "presupuestos:lab_inicio"  %}"><img src= "{% static "images/labweb_logo.png"%}" alt="Logotipo del laboratorio"></a>
         </div>
-        <div class="col-xs-8 col-md-8"></div>
-        <div class="col-lg-1">
+        <div class="col-xs-8 col-md-8"><h1>LabWeb - Gestión de laboratorio industrial</h1></div>
+        <!-- <div class="col-xs-8 col-md-8"></div> -->
+		  <div class="col-lg-1">
             <p class="text-left"><strong>{{ user.username }}</strong></p>
             <p><a href="{% url "presupuestos:logout"  %}" class="btn btn-link">Salir</a></p>
         </div>
@@ -35,15 +36,14 @@
 <div class="row">
   <div class="col-xs-2 col-md-2">
   <ul class="nav nav-pills nav-stacked">
-	<li class="active"><a href="{% url "presupuestos:lab_inicio"  %}">Inicio</a></li>
 	<li><a href="{% url "presupuestos:cliente_listar"  %}">Clientes</a></li>
 	<li><a href="{% url "presupuestos:presupuesto_listar"  %}">Presupuestos</a></li>
 	<li><a href="{% url "presupuestos:item_listar"  %}">Presupuesto Items</a></li>
 	<li><a href="{% url "presupuestos:orden_trabajo_listar"  %}">Órdenes de trabajo</a></li>
 	<li><a href="{% url "presupuestos:otitem_listar"  %}">OT Items</a></li>
-	<li><a href="{% url "presupuestos:muestra_ot_item_listar"  %}">Muestras</a></li>
+	<li><a href="{% url "presupuestos:muestra_ot_item_listar"  %}">Ingreso de Muestras</a></li>
 	<li><a href="{% url "presupuestos:muestra_listar"  %}">Muestras Listado</a></li>
-    <li><a href="{% url "presupuestos:ot_item_analisis_seleccion"  %}">Análisis</a></li>
+   <li><a href="{% url "presupuestos:ot_item_analisis_seleccion"  %}">Análisis</a></li>
 	<li><a href="{% url "presupuestos:protocolo_ot_listar" %}">Protocolo</a></li>
 
 	<li class="dropdown">

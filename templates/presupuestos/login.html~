@@ -16,7 +16,7 @@
 				<div class="row">
 			<!--logo -->
 			<div class="text-center">
-			<img src= "{% static "images/labweb_logo_login.png"%}" alt="Logotipo del laboratorio">
+			<img src= "{% static "images/labweb_logo.png"%}" alt="Logotipo del laboratorio">
 			</div>
 		</div>	
         <h3 class="form-signin-heading">Por favor ingrese sus credenciales</h3>
