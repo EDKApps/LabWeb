@@ -19,6 +19,4 @@ h1 {
 
 .nav li a:hover {background-color:  #d4e6f1;}
 
-.algo li a:hover {background-color: #d4e6f1;}
-
-
+.btn-default:focus{color:#333;background-color:#e6e6e6;border-color:#d4e6f1}.btn-default:hover{color:#333;background-color:#d4e6f1;border-color:#adadad}.btn-default.active,.btn-default:active,.open>.dropdown-toggle.btn-default{color:#333;background-color:#d4e6f1;border-color:#adadad}.btn-default.active.focus
