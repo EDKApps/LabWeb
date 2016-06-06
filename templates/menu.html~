@@ -16,7 +16,7 @@
 		
         <link rel="stylesheet" href="{% static 'css/datepicker.css' %}">        
         
-		<!--<link rel="stylesheet" href="{% static "css/presupuestos.css" %}">-->
+		<link rel="stylesheet" href="{% static "css/presupuestos.css" %}">
     </head>
     <body background= "{% static "images/fondo.jpg"%}"> 
 	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
@@ -49,7 +49,7 @@
 	<li class="dropdown">
 	  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Listados<span class="caret"></span></a>
 	  <ul class="dropdown-menu">
-		<li><a href="{% url "presupuestos:parametro_listar_visualizar"  %}">Parametros</a></li>
+		<li><a class="algo"	href="{% url "presupuestos:parametro_listar_visualizar"  %}">Parametros</a></li>
 		<li><a href="{% url "presupuestos:tecnica_listar_visualizar"%}">Metodologías analítica</a></li>
 		<li><a href="{% url "presupuestos:parametroprecio_listar_visualizar"%}">Parametros Precio</a></li>
 		<li><a href="{% url "presupuestos:perfilprecio_listar_visualizar"%}">Perfil Precio</a></li>

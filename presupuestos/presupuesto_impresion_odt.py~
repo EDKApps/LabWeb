@@ -82,7 +82,7 @@ def impresion(idpresupuesto):
 
 
     listaMuestreo = Campania.objects.filter(presupuesto=presupuesto).order_by("numero")
-        if (listaMuestreo):
+    if (listaMuestreo):
         cadena_html += '<h2>Muestreo: </h2>'
         cadena_html += '<table>'
         cadena_html += '<tr>'

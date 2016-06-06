@@ -110,8 +110,7 @@ def protocoloimpresion(idot):
 					plantilla += '<td>{0}</td>'.format(analisis.unidades.encode('utf-8'))
 					plantilla += '<td>{0}</td>'.format(analisis.lct)
 					#reemplaza el < por &lt;, ejemplo '<1' por '&lt;1' 
-					#plantilla += '<td>{0}</td>'.format(html_escape(analisis.valor.encode('utf-8')))
-					plantilla += '<td>{0}</td>'.format(analisis.valor)
+					plantilla += '<td>{0}</td>'.format(html_escape(analisis.valor.encode('utf-8')))
 					plantilla += '<td>Verificado</td>'
 					plantilla += '<td>{0}</td>'.format(html_escape(analisis.observacion.encode('utf-8')))
 					plantilla += '</tr>'
