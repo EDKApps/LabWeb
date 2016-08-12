@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'labweb',
         'USER': 'labweb',
-        'PASSWORD': os.getenv('labweb_dbpass', 'clave secreta :)'),
+        'PASSWORD': os.getenv('labweb_dbpass', 'labweb8300'),
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -129,6 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '/opt/EDKAppsLab/static/' #para el repositorio
+#              /opt/EDKAppsLab/LabWeb/presupuestos/static
 #STATIC_ROOT = '/home/marcelo/EDKAppsLab/Lab/presupuestos/static'
 
 LOGIN_REDIRECT_URL = '/presupuestos/presupuestos/'
