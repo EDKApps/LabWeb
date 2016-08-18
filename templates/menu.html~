@@ -22,8 +22,8 @@
 	<!-- Stack the columns on mobile by making one full-width and the other half-width -->
 	<div class="row">
         <div class="col-xs-3 col-md-3">
-  	     <!--logo -->
-	     <a href="{% url "presupuestos:lab_inicio"  %}"><img src= "{% static "images/labweb_logo.png"%}" alt="Logotipo del laboratorio"></a>
+  	     <!--cambiar nombre logo! -->
+	     <a href="{% url "presupuestos:lab_inicio"  %}"><img src= "{% static "images/logo_petrolab.png"%}" alt="Logotipo del laboratorio"></a>
         </div>
         <div class="col-xs-8 col-md-8"><h1>LabWeb - Gestión de laboratorio industrial</h1></div>
         <!-- <div class="col-xs-8 col-md-8"></div> -->
@@ -39,8 +39,8 @@
 	<li><a href="{% url "presupuestos:cliente_listar"  %}">Clientes</a></li>
 	<li><a href="{% url "presupuestos:presupuesto_listar"  %}">Contratos (Presupuestos)</a></li>
 	<li><a href="{% url "presupuestos:item_listar"  %}">Contratos Items (Presupuestos Items)</a></li>
-	<li><a href="{% url "presupuestos:orden_trabajo_listar"  %}">Nota de Pedidio (OT)</a></li>
-	<li><a href="{% url "presupuestos:otitem_listar"  %}">Nota de Pedidio Items (OT Items)</a></li>
+	<li><a href="{% url "presupuestos:orden_trabajo_listar"  %}">Nota de Pedido (OT)</a></li>
+	<li><a href="{% url "presupuestos:otitem_listar"  %}">Nota de Pedido Items (OT Items)</a></li>
 	<li><a href="{% url "presupuestos:muestra_ot_item_listar"  %}">Cadena de custodia (Ingreso de muestras)</a></li>
 	<li><a href="{% url "presupuestos:muestra_listar"  %}">Muestras Listado</a></li>
    <li><a href="{% url "presupuestos:ot_item_analisis_seleccion"  %}">Análisis</a></li>
